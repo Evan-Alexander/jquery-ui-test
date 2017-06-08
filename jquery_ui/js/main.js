@@ -1,4 +1,6 @@
 jQuery.noConflict();
-jQuery( document ).ready(function() {
-    $("#date").datepicker();
+jQuery( document ).ready(function($) {
+    $
+    $( ".draggable" ).draggable();
+
 });
