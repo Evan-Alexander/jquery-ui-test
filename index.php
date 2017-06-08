@@ -22,6 +22,7 @@ require('inc/header.php');
             </ul>
         </div>
         <div class="col-md-6">
+            <h2>Drop and sort here</h2>
             <div class="right">
 
 
