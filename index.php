@@ -5,11 +5,12 @@ require('config.php');
 require('inc/header.php');
 ?>
 <div class="container">
+    
     <div class="row">
         <div class="col-md-6">
 
             <h2>Choose a field type</h2>
-            <ul>
+            <ul class="sortable">
                 <?php
                 include("functions.php");
                 foreach($field_types as $field) {
